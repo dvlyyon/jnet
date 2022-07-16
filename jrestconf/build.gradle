@@ -1,0 +1,8 @@
+version="1.0.0"
+
+dependencies {
+    implementation project(':jcommon')
+    implementation project(':jhttp1')
+    implementation 'commons-logging:commons-logging:1.2'
+}
+

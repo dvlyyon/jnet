@@ -1,0 +1,15 @@
+version="1.0.0"
+apply plugin: 'application'
+
+dependencies {
+    implementation project(':jcommon')
+    implementation project(':jssh')
+    implementation 'commons-logging:commons-logging:1.2'
+    implementation 'org.jdom:jdom2:2.0.6'
+//    implementation 'ch.ethz.ganymed:ganymed-ssh2:262'
+//    implementation 'com.hierynomus:sshj:0.31.0'
+//    implementation 'com.eaio.uuid:uuid:3.2'
+}
+
+mainClassName = 'org.dvlyyon.net.netconf.Client'
+

@@ -1,0 +1,11 @@
+version="1.0.0"
+apply plugin: 'application'
+
+dependencies {
+    implementation project(':jcommon')
+    implementation 'commons-logging:commons-logging:1.2'
+    implementation 'org.snmp4j:snmp4j:2.5.6'
+}
+
+mainClassName = 'org.dvlyyon.net.snmp.Snmp4jClientImpl'
+
